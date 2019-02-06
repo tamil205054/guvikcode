@@ -3,12 +3,12 @@ import java.util.Scanner;
 {
     public static void main(String[] args) 
     {
-        int number=5;
+        int num=5;
          
         
-        if(number > 0)
+        if(num > 0)
         {
-            if(number%2==0)
+            if(num%2==0)
             {
                 System.out.println("Even");
             }
