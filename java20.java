@@ -6,7 +6,7 @@ import java.util.Scanner;
        int i=1,input = s.nextInt();  
    while(i<5)
    {
-       System.out.print((i*input)+" ");
+       System.out.print((i*input)+"\t");
        i=i+1;
    } 
 }
