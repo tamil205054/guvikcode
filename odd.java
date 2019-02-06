@@ -1,4 +1,4 @@
- import java.util.Scanner;
+import java.util.Scanner;
 class odd_even {
     public static void main(String[] args) 
     {
@@ -9,7 +9,7 @@ class odd_even {
          {
              if(i%2!=0)
              {
-                 System.out.println(i);
+                 System.out.print(i+" ");
              }
          } 
         
