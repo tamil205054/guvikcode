@@ -3,18 +3,18 @@ class palindrome
 {
     public static void main(String args[])
     {
-        int n, m, a = 0,x;
-        Scanner s = new Scanner(System.in);
+        int number, m, a = 0,x;
+        Scanner input = new Scanner(System.in);
          
-        n = s.nextInt();
-        m = n;
-        if(n<=1000)
+        number = input.nextInt();
+        m = number;
+        if(number<=1000)
         {
-        while(n > 0)
+        while(number > 0)
         {
-            x = n % 10;
+            x = number % 10;
             a = a * 10 + x;
-            n = n / 10;
+            number = number / 10;
         }
         if(a == m)
         {
