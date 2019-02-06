@@ -18,11 +18,11 @@ class palindrome
         }
         if(a == m)
         {
-            System.out.println("Yes");
+            System.out.println("yes");
         }
         else
         {
-            System.out.println("No");
+            System.out.println("no");
         }
         }
         else
