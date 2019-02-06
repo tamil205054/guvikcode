@@ -8,8 +8,7 @@ class palindrome
          
         number = input.nextInt();
         m = number;
-        if(number<=1000)
-        {
+     
         while(number > 0)
         {
             x = number % 10;
@@ -24,10 +23,7 @@ class palindrome
         {
             System.out.println("no");
         }
-        }
-        else
-        {
-            System.out.println("cross the input limit");
-        }
+        
+        
     }
 }
