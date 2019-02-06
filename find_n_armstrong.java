@@ -8,7 +8,7 @@ import java.util.Scanner;
        int end = s.nextInt();   
        for (int i = start; i <= end; i++) {  
            if (isArmstrong(i)) {  
-               System.out.println(i+" ");  
+               System.out.println(i+"\t");  
            }  
        }  
    }  
