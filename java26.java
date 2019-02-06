@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-public class sort
+class sort
 {
       public static void main(String arg[])
       {
