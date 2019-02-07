@@ -10,20 +10,20 @@ count(str);
 }
 public static void count(String x)
 {
-        int num=0;
+        int num1=0,num2=0;
 		char[] ch = x.toCharArray();
         for(int i=0;i<x.length();i++)
         {
          if(Character.isDigit(ch[i]))
          {
-          num=1;
+          num1=1;
          }
-            if(Character.isLetter(ch[i])&&num==1)
-            {
-        	num=2;
-            }
+        if(Character.isLetter(ch[i]))
+        {
+        	num2=1;
         }
-        if(num ==2)
+        }
+        if(num1==1&&num2==1)
         {
             System.out.println("yes");
         }
