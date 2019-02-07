@@ -4,11 +4,11 @@ class compare
 	public static void main(String args[])
 	{
 		Scanner SC=new Scanner(System.in);
-		String str1=SC.nextLine().toLowerCase();
-		String str2=SC.nextLine().toLowerCase();
+		String str1=SC.next().toLowerCase();
+		String str2=SC.next().toLowerCase();
         int len1=str1.length();
         int len2=str2.length();
-        boolean flg=true;
+        int flg=0;
 		if(len1!=len2)
         {
 			 if(len1 >len2)
@@ -22,15 +22,15 @@ class compare
 		}
 		else
         {
-		    for(int loop=0; loop<str1.length();loop++)
+		    for(int i=0; i<str1.length();i++)
             {
-			    if(str1.charAt(loop)!=str2.charAt(loop))
+			    if(str1.charAt(i)!=str2.charAt(i))
                 {
-				    flg=false;
+				    flg=1;
 				    break;
 			    }
 		    }
-		    if(flg)
+		    if(flg==1)
             {
 			System.out.println(str1);
 		    }
