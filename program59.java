@@ -5,13 +5,13 @@ class count
 	{
 		Scanner SC=new Scanner(System.in);
 		int num=SC.nextInt();
-        int flag=0;
+        int count=0;
         while(num!=0)
         {
             num/=10;
-                flag++;
+                count++;
 
         }
-            System.out.print(flag);
+            System.out.print(count);
 	}
 }
