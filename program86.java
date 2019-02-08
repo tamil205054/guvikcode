@@ -20,11 +20,11 @@ class value {
         } 
         if(flag==0)
         {
-            System.out.print("yes");
+            System.out.print("Yes");
         }
         else
         {
-            System.out.print("no");
+            System.out.print("No");
         } 
     } 
 
