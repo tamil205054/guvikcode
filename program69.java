@@ -7,9 +7,9 @@ import java.util.Scanner;
         Scanner s = new Scanner(System.in);
         int m = s.nextInt();
         int n = s.nextInt();
-    
+        int d=m-n;
        
-            if((m-n)/2==0)
+            if(d%2==0)
             {
                 System.out.println("even");
             }
