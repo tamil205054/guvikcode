@@ -12,7 +12,7 @@ class find
      
       int count=0;
      
-      for (int i=start;i<end;i++)
+      for (int i=start+1;i<end;i++)
       {
          
          if(i==num)
