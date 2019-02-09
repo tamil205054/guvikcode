@@ -1,5 +1,5 @@
-import java.util.Scanner;
-class lcm {
+import java.util.*;
+class string{
 	
 	public static void main(String[] args) 
 	{
@@ -8,7 +8,8 @@ class lcm {
         ip=sc.next();
 
         char ch[]=ip.toCharArray();
-        for(int i=ch.length-1;i>=0;i--)
+        Arrays.sort(ch);
+        for(int i=0;i<ch.length;i++)
         {
             System.out.print(ch[i]);    
         }	
