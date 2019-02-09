@@ -11,7 +11,7 @@ import java.util.*;
         b=s.nextInt();
         
         int n=Math.min(a,b);
-        for (int i=;i<=n;i++)
+        for (int i=1;i<=n;i++)
         {
             if(a%i==0 && b%i==0)
             {
