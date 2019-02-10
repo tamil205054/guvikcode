@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
  class Check {
       public static void main(String[] args) {
       int i,n,m=0,k=0;
