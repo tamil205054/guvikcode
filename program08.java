@@ -4,17 +4,27 @@ class Case
     public static void main(String ar[])
      {
         Scanner in=new Scanner(System.in);
-        String sen=in.nextLine();
-        int len=0,k=0;
-        String str[] = sen.split(" ", 0);
-        for(int i=0;i<str.length;i++)
-        {
-             str[i]=str[i].replace(str[i].charAt(0),Character.toUpperCase(str[i].charAt(0)));
-             for(int j=1;j<str[i].length();j++)
-             {
-                  str[i]=str[i].replace(str[i].charAt(j),Character.toLowerCase(str[i].charAt(j))); 
-             } 
-             System.out.print(str[i]+" ");   
+        String sen=in.nextLine().toLowerCase();
+        int len=0,i=0;
+        //System.out.print(sen);
+        String str[] = sen.split(" ",-2);
+        
+      ///System.out.print(str.length);        
+        while(i<str.length)
+        { 
+          int j=0;
+            // str[i]=str[i].replace(str[i].charAt(0),Character.toUpperCase(str[i].charAt(0)));
+            char ch[]=str[i].toCharArray();
+            int chlen=ch.length;
+            while(j<chlen)
+            {
+              ch[0]=Character.toUpperCase(str[i].charAt(0));
+              System.out.print(ch[j]);
+              j++;
+            }
+            System.out.print(" ");
+          //  System.out.print(chlen);              
+        i++;
         }
     }
 }
