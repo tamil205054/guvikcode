@@ -24,9 +24,8 @@ class prime
         } 
         for(int j=2;j<=end;j++)
         {
-            if(prime[j]==true)
-            {
-                 
+            if(prime[j]==true&& j>=start)
+            { 
                 count++;
             }
         }
