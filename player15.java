@@ -1,5 +1,5 @@
 import java.util.*;
-  class GFG  
+  class string  
 { 
       
   
