@@ -6,7 +6,7 @@ import java.util.*;
     public static void main(String[] args) 
     { 
 	Scanner input=new Scanner(System.in);
-        	String str =  input.next();
+        	String str = input.nextLine();
         	int count[] = new int[256]; 
         
        	 int len = str.length(); 
