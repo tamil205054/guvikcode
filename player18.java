@@ -7,6 +7,8 @@ class string
         int len=ip.nextInt();
         String str[]=new String[len];
         String giveStr="kabali";
+        char cha[]=giveStr.toCharArray();
+        Arrays.sort(cha);
         for(int i=0;i<len;i++)
         {
             str[i]=ip.next();
@@ -14,18 +16,21 @@ class string
         int flag=0;
         for(int i=0;i<len;i++)
         {
-         char   ch[]=str[i].toCharArray();
+         char  ch[]=str[i].toCharArray();
+         Arrays.sort(ch);
          int count=0;
-            for(int j=0;j<ch.length;j++)
-            {
-                if(ch[j]==giveStr.charAt(j))
-                {
-                    count++;
-                }
-                if(count==ch.length)
-                {
-                    flag++;
-                }
+         int arrlen=Math.min(ch.length,cha.length);
+            for(int j=0;j<arrlen;j++)
+            {     
+                 if(ch[j]==cha[j])
+                    {
+                        count++;
+                    }
+                    if(count==cha.length)
+                    {
+                        flag++;
+                    }
+                
             }
         }
         System.out.println(flag);
