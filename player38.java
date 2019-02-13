@@ -5,7 +5,7 @@ class number
     {
         Scanner input=new Scanner(System.in);
         int number=input.nextInt();
-        for(int i=2;i<number;i++)
+        for(int i=2;i<=number;i++)
         {
             if(number%i==0)
             {
