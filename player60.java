@@ -13,13 +13,12 @@ class triangle
          {
              for(int j=0;j<len2;j++)
              {
-                 if(i!=j)
-                 {
+                
                     if(str1.charAt(i)==str2.charAt(j))
                     {
                         count=1;   
                     }
-                 }
+             
              }
          }     
          if(count==1)
