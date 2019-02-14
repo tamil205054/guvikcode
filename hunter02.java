@@ -11,9 +11,20 @@ class number
             arrNum[i]=input.nextInt();
         }
          Arrays.sort(arrNum);
+         int allow=0;
         for(int i =n-1; i >=0 ; i--)
-        {
-            System.out.print(arrNum[i]);
+        {   
+            if(i==0 && allow==0)
+            {
+                System.out.print(arrNum[i]); 
+            }
+            if(arrNum[i]!=0 || allow==1)
+            {
+                System.out.print(arrNum[i]);
+                allow=1;
+            }
+            
+            
         }   
     }
 }
