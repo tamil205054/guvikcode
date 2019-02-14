@@ -17,7 +17,7 @@ class number
             {
                 System.out.print(arrNum[i]);
             }
-            if(i<n-1)
+            if(i<n-1&&arrNum[i]==i)
             {
                 System.out.print(" ");
             }
