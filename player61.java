@@ -11,8 +11,16 @@ class arrays
         for(int i=0;i<n;i++)
         {
             arr[i]=input.nextInt();
-            sum=sum+arr[i];
+             
         }
+        for (int i = 0; i < n; i++)  
+        { 
+            for (int j = i + 1; j < n; j++)  
+            { 
+                if (arr[i] == arr[j])  
+                    sum+=arr[i]; 
+            } 
+        } 
         if(sum==k)
         {
             System.out.print("yes");
