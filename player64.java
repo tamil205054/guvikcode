@@ -6,6 +6,8 @@ class arrays
         Scanner input=new Scanner(System.in);
         int n=input.nextInt();
         int k=input.nextInt();
+        if(n <= 100000)
+        {
         int array[]=new int[n];
         for(int i=0;i<n;i++)
         {
@@ -24,7 +26,7 @@ class arrays
             
         } 
     
-    
+    }
         
     }
 }
