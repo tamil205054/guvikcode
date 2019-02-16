@@ -4,20 +4,16 @@ class duplicate
 		public static void main(String ar[])
 		{
 			Scanner input=new Scanner(System.in);
-			int n=input.nextInt();
-			int arrNum[]=new int[n];	
-			for(int i=0;i<n;i++)
-				{
-					arrNum[i]=input.nextInt();
-				} 
-			int temp=0; 
+			int number=input.nextInt();
+			  String str = Integer.toString(number);
+			int temp=0,n=str.length(); 
 			 for(int i=0;i<n;i++)
 				{
 				for(int j=i;j<n;j++)
 					{
 						if(i!=j)
 						{
-							if(arrNum[i]==arrNum[j])
+							if(str.charAt(i)==str.charAt(j))
 							{
 								temp=1;
 							}	 
