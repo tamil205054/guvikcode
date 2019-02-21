@@ -25,7 +25,7 @@ class line
 						}
 					}
 			}
-			if(count ==3)
+			if(count <= 3)
 			{
 				System.out.print("yes");
 			}
