@@ -27,6 +27,6 @@ import java.util.*;
          marge[count++] = arr2[j];
       }
       Arrays.sort(marge);
-      for(int i = 0;i < m+n;i++) System.out.print(marge[i]+" ");
+      for(int i = 0;i < m+n;i++) System.out.printf("%d ",marge[i]);
    }
 }
