@@ -8,7 +8,8 @@ import java.util.*;
      int m=ip.nextInt();
      int arr1[]=new int[n];
      int arr2[]=new int[m];
-     int marge[]=new int[m+n];
+     int len=m+n;
+     int marge[]=new int[len];
       int count = 0;
       for(int i = 0; i < n; i++)
       {
@@ -27,6 +28,15 @@ import java.util.*;
          marge[count++] = arr2[j];
       }
       Arrays.sort(marge);
-      for(int i = 0;i < m+n;i++) System.out.printf("%d ",marge[i]);
+      int j=1;
+      for(int i = 0;i < len;i++)
+      {
+      System.out.print(marge[i]);
+      if(j<len)
+      {
+  System.out.print(" ");
+  j++;
+}
+}
    }
 }
