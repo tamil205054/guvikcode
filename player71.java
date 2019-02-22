@@ -5,6 +5,7 @@ class factorial
   {
       Scanner scan=new Scanner(System.in);
       int n=scan.nextInt();
+      if(n<=100000){
       int arr[]=new int[n];
       for(int i=0;i<n;i++)
       {
@@ -18,5 +19,6 @@ class factorial
 
 
             }
+          }
   }
 }
