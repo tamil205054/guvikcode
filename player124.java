@@ -13,7 +13,7 @@ class smallest
           arr1[i]=in.nextInt();
         }
         int result=0;
-        for(int j=2;j<=100000;j++)
+        for(int j=1;j<=100000;j++)
         {
           int count=0;
           for(int i=0;i<n;i++)
