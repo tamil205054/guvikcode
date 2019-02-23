@@ -23,7 +23,7 @@ class repeat
         }
         if(count!=0)
         {
-          System.out.print("Yes"+" "+count);
+          System.out.print("yes"+" "+count);
         }
         else
         {
