@@ -13,7 +13,7 @@ class xor
         {
 
           arr[i]=input.nextInt();
-          temp=temp|arr[i];
+          temp=temp^arr[i];
         }
         System.out.print(temp);
       }
