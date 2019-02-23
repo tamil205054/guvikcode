@@ -1,5 +1,5 @@
 import java.util.*;
-class sumofarray
+class sum
 {
   public static void main(String[] args)
   {
