@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class string_reverse
+class reverse
 {
   public static void main(String[] args)
   {
@@ -12,17 +12,12 @@ class string_reverse
       ArrayList<String>arr=new ArrayList<String>();
       for(int i=0;i<len;i++)
       {
-        if(i!=0&&i!=len-1)
-        {
+
           StringBuilder temp = new StringBuilder();
           temp.append(str[i]);
           temp=temp.reverse();
           arr.add(temp.toString());
-        }
-        else
-        {
-          arr.add(str[i]);
-        }
+       
       }
       for(int i=0;i<arr.size();i++)
         {
