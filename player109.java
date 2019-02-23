@@ -1,5 +1,5 @@
 import java.util.*;
-class sum
+class sumofarray
 {
   public static void main(String[] args)
   {
@@ -12,13 +12,14 @@ class sum
       {
         arrNum[i]=scan.nextInt();
       }
-int sum;
-      for(int j=1;j<n;j++)
+      int sum;
+      for(int j=0;j<n;j++)
       {
        sum=0;
-
-        sum=arrNum[j-1]+arrNum[j];
-
+       for(int i=j;i<n;i++)
+       {
+        sum=sum+arrNum[i];
+      }
 
       arrNum[j]=sum;
     }
