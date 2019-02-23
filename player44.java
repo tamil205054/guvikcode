@@ -8,9 +8,9 @@ class substr
       int n=input.nextInt();
       if(n<=str.length())
       {
-      String str1=str.substring(0,n);
-      String str2=str.substring(n);
-      System.out.println(str2+str1);
+      String str1=str.substring(str.length()-n);
+    String str2=str.substring(0,str.length()-n);
+      System.out.println(str1+str2);
     }
     else
     {
