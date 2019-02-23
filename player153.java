@@ -12,7 +12,14 @@ class string
       sub.add(str.charAt(i));
     i=i+k;
     }
-    System.out.print(sub);
+    for(int j=0;j<sub.size();j++)
+    {
+      System.out.print(sub.get(j));
+      if(j<sub.size()-1)
+      {
+        System.out.print(" ");
+      }
+    }
 
   }
 }
