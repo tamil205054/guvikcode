@@ -13,7 +13,7 @@ class bitor
         {
 
           arr[i]=input.nextInt();
-          temp=arr[0];
+           
           temp=temp|arr[i];
         }
         System.out.print(temp);
