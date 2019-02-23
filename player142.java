@@ -19,7 +19,7 @@ class str
         {
           if(i!=j)
           {
-            if(str[i]===str[j])
+            if(str[i]==str[j])
             {
               count++;
             }
