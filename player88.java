@@ -10,7 +10,7 @@ class rightshift
       {
         int num=n>>k;
         //double val=Math.round(num*100.0)/100.0;
-        System.out.print(num);
+        System.out.print(num+""+".00");
       }
 
   }
