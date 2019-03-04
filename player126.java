@@ -1,4 +1,4 @@
-  import java.util.*;
+import java.util.*;
 class k_time
 {
   public static void main(String[] args)
@@ -33,10 +33,10 @@ class k_time
             }
           }
         }
-        for(int i=0;i<num.size();i++)
+        for(int i=num.size()-1;i>=0;i--)
         {
           System.out.print(num.get(i));
-          if(i<num.size()-1)
+          if(i!=0)
           {
             System.out.print(" ");
           }
