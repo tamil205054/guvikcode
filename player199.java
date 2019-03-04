@@ -5,8 +5,18 @@ class min
   {
       Scanner input=new Scanner(System.in);
      String str=input.next();
+
+     StringBuilder StrBdr = new StringBuilder();
+     StrBdr.append(str);
+     String pali=StrBdr.reverse().toString();
      char ch[]=str.toCharArray();
      int len=ch.length;
+     if(str.equals(pali))
+     {
+       System.out.print("yes");
+     }
+     else
+     {
      ArrayList<Character> ans=new ArrayList<Character>();
      for(int i=0;i<len;i++)
      {
@@ -28,6 +38,6 @@ class min
         {
           System.out.print("no");
         }
-     
+     }
 }
 }
