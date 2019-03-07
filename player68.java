@@ -15,13 +15,18 @@ class array
             int flag=0;
             for(int i=0;i<n;i++)
             {
+                //2 3 2 3 
                 int count=0;
                 
-                for(int j=0;j<n;j++)
+                for(int j=0;j<n-1;j++)
                 {
-                    if(arr[i]==arr[j])
+                    if(arr[i]==arr[j+1])
                     {
                         count++;
+                    }
+                    else
+                    {
+                        break;
                     }
                 }
                 if(flag<count)
