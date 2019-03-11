@@ -1,4 +1,4 @@
-  import java.util.*;
+import java.util.*;
 class onetime{
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
@@ -11,11 +11,14 @@ class onetime{
 int len=0;
             for(int j=0;j<ch.length;j++)
             {
+                if(j!=i)
+                {
                 if(ch[i]==ch[j])
                 {
                     cha=ch[i];
                     len++;
                 }
+            }
             }
             if(maxlen<len)
             {
