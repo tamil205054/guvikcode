@@ -1,5 +1,5 @@
 import java.util.*;
-class hexi
+class arraynumber
 {	
     public static void main(String aa[])
 	{ 
