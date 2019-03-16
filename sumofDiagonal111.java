@@ -19,9 +19,8 @@ class sumOfDiogonal
 		{ 
 			for(int j=0;j<n;j++)
 			{
-				if(i==j)
-				{
-					
+			  if (i == n - j - 1)
+			  {
 					count=arrNum[i][j]+count;
 				}
 			}
