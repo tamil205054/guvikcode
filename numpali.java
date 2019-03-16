@@ -21,11 +21,11 @@ class repeat
         }
 		if(original==reve)
 		{
-		System.out.print("yes");
+		System.out.print("YES");
         }
 		else
 		{
-			System.out.print("no");
+			System.out.print("NO");
 		}
 		ip.close();    
     }
