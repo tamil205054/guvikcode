@@ -9,11 +9,11 @@ class PowerOfSum{
 		for(int i=0;i<num1.length()-(spl-1);i++)
 		{
 			System.out.print(num1.substring(i,i+spl));
-			if(i<num1.length()-(spl-2))
+			if(i<num1.length()-(spl-1)-1)
 			{
 				System.out.print(" ");
 			}
-		} 
+		}  
 		input.close();
 		
 	} 
