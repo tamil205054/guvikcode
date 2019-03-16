@@ -10,8 +10,7 @@ class oddCaps
 		for(int i=0;i<n;i++)
 		{
 			arrNum[i]=input.nextInt();
-		}
-		Arrays.sort(arrNum);
+		} 
 		for(int i=n-1;i>=0;i--)
 		{
 		 System.out.print(arrNum[i]);
