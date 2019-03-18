@@ -1,5 +1,5 @@
 import java.util.*; 
-class Index
+class Indexfind
 {
 	public static void main (String[] args)
 	{
