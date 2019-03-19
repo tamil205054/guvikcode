@@ -1,5 +1,5 @@
 import java.util.*;
-class factorial
+class max
 {
   public static void main(String[] args)
   {
@@ -11,14 +11,21 @@ class factorial
       {
         arr[i]=scan.nextInt();
       }
-    // Arrays.sort(arr);
+	List<Integer> result=new ArrayList<Integer>();
 
         for(int j=0;j<n-1;j++)
         {
-              System.out.printf("%d ",Math.max(arr[j],arr[j+1]));
-
-
-            }
-          }
+             result.add(Math.max(arr[j],arr[j+1])); 
+        }
+		for(int j=0;j<result.size();j++)
+		{
+			System.out.print(result.get(j));
+			if(j<result.size()-1)
+			{
+			System.out.print(" ");	
+			}
+		}	
+        
   }
+}
 }
