@@ -11,7 +11,9 @@ class array
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
 		int count=0;
-		for(int i=0;i<ch1.length;i++)
+		if(str.length()==str1.length())
+		{
+		for(int i=0;i<ch2.length;i++)
 		{ 
 			if(ch1[i]==ch2[i])
 			{
@@ -23,10 +25,18 @@ class array
 		{
 			System.out.print("yes");
 		}
-	    else
-	    {
-	    System.out.print("no");
-	    }
+		
+		else
+		{
+		
+			System.out.print("no");	
+		}
+		}
+		else
+		{
+		
+			System.out.print("no");	
+		}
 		
 	}
 }
