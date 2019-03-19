@@ -1,4 +1,4 @@
-  import java.util.*; 
+import java.util.*; 
 class arraypair
 {
 	public static void main (String[] args)
@@ -16,6 +16,7 @@ class arraypair
 			 String rev="";
 				for(int j=arrStr[i].length()-1;j>=0;j--)
 				{
+					if(arrStr[i].charAt(j)>='a'&&arrStr[i].charAt(j)<='z'||arrStr[i].charAt(j)>='A'&&arrStr[i].charAt(j)<='Z')
 					rev=rev+arrStr[i].charAt(j);
 				}
 				result.add(rev);
