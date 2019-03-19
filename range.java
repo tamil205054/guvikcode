@@ -9,7 +9,7 @@ class sumof
 		int n=input.nextInt();
 		 String find = Integer.toString(n); 
 		 int count=0;
-		for(int i=l;i<r;i++)
+		for(int i=l;i<=r;i++)
 		{
 			 String str = Integer.toString(i); 
 			 if(str.contains(find))
