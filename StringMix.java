@@ -1,5 +1,5 @@
 import java.util.*;
-class StringMix
+class StringMixer
 {
 	
     public static void main(String[] args) 
