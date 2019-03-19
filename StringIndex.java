@@ -9,13 +9,17 @@ class StringIndex
 		int count=0;
 		for(int i=0;i<str1.length();i++)
 		{
-			String str3=str1.substring(i,str2.length()+i)	;
+			if(str2.length()+i<=str1.length())
+			{
+				
+			String str3=str1.substring(i,str2.length()+i);
 			if(str2.equals(str3))
 			{
 				count=1;
 				System.out.println(i);
 				break;
-			}				
+			}			
+			}
 		}
 		if(count==0)
 		{
