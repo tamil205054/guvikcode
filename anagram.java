@@ -21,8 +21,12 @@ class array
 		 
 		if(count==5)
 		{
-			System.out.print("YES");
+			System.out.print("yes");
 		}
+	    else
+	    {
+	    System.out.print("no");
+	    }
 		
 	}
 }
