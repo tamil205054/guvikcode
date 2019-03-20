@@ -5,9 +5,9 @@ import java.util.*;
 	public static void main(String[] args) {
 		int N,A,B;
 		Scanner scan=new Scanner(System.in);
-		N=Integer.parseInt(scan.nextLine());
-		A=Integer.parseInt(scan.nextLine());
-		B=Integer.parseInt(scan.nextLine());
+		N=Integer.parseInt(scan.next());
+		A=Integer.parseInt(scan.next());
+		B=Integer.parseInt(scan.next());
 		int mod=N%(A+B);
 		if(mod%2==0)
 			System.out.println("YES");
