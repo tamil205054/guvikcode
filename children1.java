@@ -2,8 +2,7 @@
  class children {
 	public static void main(String[] args) {
 		 
-		Scanner in=new Scanner(System.in);
-		System.out.println("enter the 2n children in n pair");
+		Scanner in=new Scanner(System.in); 
 		double a=in.nextDouble();
 		 
 		int c=1;
