@@ -1,5 +1,5 @@
-          import java.util.*;
- class Longest{ 
+ import java.util.*;
+ class Longest_common{ 
  
 	static void printLCSubStr(String X, String Y, int m, int n) 
 	{ 
