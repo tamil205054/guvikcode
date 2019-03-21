@@ -7,7 +7,7 @@ class a{
         Scanner s=new Scanner(System.in);
         div=s.nextInt();
         divisor=s.nextInt();
-		if(div>divisor)
+		if(div>=divisor)
 		{
         while(div>divisor){
             div=div-divisor;
