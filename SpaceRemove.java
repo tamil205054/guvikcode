@@ -6,7 +6,7 @@ class SpaceRemove
 	{
 		Scanner input=new Scanner(System.in);
 		String str=input.nextLine();
-		System.out.print(str.replaceAll("( )+"," "));
+		System.out.print(str.replaceAll("( )+","/s"));
 		input.close();
 	}
 
