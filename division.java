@@ -7,10 +7,17 @@ class a{
         Scanner s=new Scanner(System.in);
         div=s.nextInt();
         divisor=s.nextInt();
+		if(div>divisor)
+		{
         while(div>divisor){
             div=div-divisor;
             ans++;
         }
+		}
+		else
+		{
+			ans=0;
+		}
         System.out.println(ans);
         
     }
