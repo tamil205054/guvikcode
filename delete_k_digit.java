@@ -1,0 +1,34 @@
+import  java.util.*; 
+class array
+{
+	public static void main (String[] args) 
+	{ 
+		Scanner input=new Scanner(System.in);
+		String num=input.next();
+		int k=input.nextInt();
+ System.out.print(removeKdigits(num,k));
+		
+	}
+	static String removeKdigits(String num, int k) {
+    if(num.length()==k)
+        return "0";
+ 
+    StringBuilder sb = new StringBuilder(num);
+    for(int j=0; j<k; j++){
+        int i=0;
+        while(i<sb.length()-1&&sb.charAt(i)<=sb.charAt(i+1)){
+            i++;
+        }
+        sb.delete(i, i+1);
+    }
+         
+    while (sb.length() > 1 && sb.charAt(0)=='0')
+        sb.delete(0,1);
+ 
+    if(sb.length()==0){
+        return "0";
+    }
+ 
+    return sb.toString();
+}
+}
