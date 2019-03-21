@@ -1,7 +1,7 @@
  
 import java.io.*; 
 import java.util.*; 
-class GFG { 
+class arraysort1 { 
 	static void sortMat(int mat[][],int n, int m) 
 	{ 
 		 
