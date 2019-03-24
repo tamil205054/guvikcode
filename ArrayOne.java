@@ -1,5 +1,5 @@
 import java.util.*;
-class Zero
+class ZeroNum
 {
 	public static void main(String arg[])
 	{
@@ -38,6 +38,14 @@ class Zero
 			}
 			 
 		}
-		System.out.print(result);
+		for(int i=0;i<result.size();i++)
+		{
+		System.out.print(result.get(i));
+		if(i<result.size()-1)
+		{
+System.out.print(" ");
+		}
+		} 
+input.close();
 	}
 }
