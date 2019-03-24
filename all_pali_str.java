@@ -35,7 +35,11 @@ class Pali
 		{ 
     			for (int i=0; i<n; i++)
 			{ 
-        		System.out.println(str[i]); 
+        		System.out.print(str[i]); 
+				if(i<n-1)
+			{
+		System.out.println(); 
+			}
 			}
 		}
    
