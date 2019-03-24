@@ -1,5 +1,6 @@
+
 import  java.util.*;
-class array
+class email
 {
     public static  void main(String arg[])
     {
@@ -15,16 +16,21 @@ class array
 	   int t=-2;
 	   int be=0;
 	   int before=0;
+		int start=0,end=0;
 	   for(int i=0;i<email.length();i++)
 	   {
 		   if(email.charAt(i)=='@'||email.charAt(i)=='.')
 		   {
 			   flag++;
 		   }
-		 
+		 if(email.charAt(i)=='.')
+			{
+			end=i;
+			}
 		   if(email.charAt(i)=='@')
 		   {
 			   k=1;
+			start=i;
 			   be=1;
 		   }
 		    if(be==0)
@@ -40,6 +46,10 @@ class array
 			   k=0;
 		   }
 	   } 
+		if(email.substring(start+1,end).equals("gmail")||email.substring(start+1,end).equals("email"))
+		{
+		count++;
+		} 
 	   if(email.substring(email.length()-4,email.length()).equals(".com"))
 	   {
 		   count++;
@@ -57,7 +67,7 @@ class array
 	   {
 		   count++;
 	   }
-	   if(count==5)
+	   if(count==6)
 	   {
 		   System.out.print("YES");
 	   }
