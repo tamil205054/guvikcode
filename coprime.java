@@ -40,5 +40,4 @@ class coprime {
 		coprime(a, b); 
 	} 
 } 
-
-// This code is contributed by Anant Agarwal. 
+ 
