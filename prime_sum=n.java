@@ -23,9 +23,9 @@ class prime
             two++;
         }
         int flag=0;
-        for(int i=0;i<=prime.size()/2;i++)
+        for(int i=0;i<prime.size();i++)
         {
-            for(int j=prime.size()/2;j<prime.size();j++)
+            for(int j=i;j<prime.size();j++)
             {
                 if(prime.get(i)+prime.get(j)==n)
                 {
