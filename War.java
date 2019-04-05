@@ -1,15 +1,19 @@
-import java.util.*;	
+import java.util.Scanner;	
 class War
 {
 	public static void main(String str[])
 	{
+		 
 		Scanner input=new Scanner(System.in);
 		int n=input.nextInt();
 		int arr[]=new int[n];
+		
 		for(int i=0;i<n;i++)
 		{
 			arr[i]=input.nextInt();
 		}
+		
+		 
 		int count=0;
 		for(int i=0;i<n;i++)
 		{
@@ -29,5 +33,7 @@ class War
 		}
 		System.out.print(count);
 		input.close();
+		
+		
 	}
 }
