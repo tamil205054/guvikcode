@@ -1,5 +1,5 @@
-import java.util.*;
-public class maxwell { 
+import java.util.*; 
+class maxwell { 
   
 	static int gcd(int a, int b) 
 	{ 
