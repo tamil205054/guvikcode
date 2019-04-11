@@ -42,7 +42,11 @@ class  min
        }
        for(int i=0;i<n;i++)
        {
-System.out.print(arr1[i]+" ");
+System.out.print(arr1[i]);
+if(i<n-1)
+{
+    System.out.print(" ");
+}
        }
        input.close(); 
     }
