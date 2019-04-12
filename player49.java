@@ -12,7 +12,7 @@ class integer
       }
       else if(num>Integer.MAX_VALUE)
       {
-          System.out.println("LONG");
+          System.out.println("LONG LONG");
       }
   }
 }
