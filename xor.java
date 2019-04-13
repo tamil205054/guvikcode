@@ -32,7 +32,8 @@ class xor
         }
         for(int i=0;i<result.size();i++)
         {
-            System.out.println(result.get(i));
+            System.out.print("\n"+result.get(i));
+            
         }
         input.close();
     }
