@@ -8,7 +8,7 @@ class Str
 		List<String>output=new ArrayList<String>();
 		for (int i=0;i<n;i++) 
 		{
-			String str=input.next();
+			String str=input.next().toLowerCase();
 			output.add(str);	
 		}
 		Collections.sort(output);
