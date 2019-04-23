@@ -8,13 +8,17 @@ class Str
 		List<String>output=new ArrayList<String>();
 		for (int i=0;i<n;i++) 
 		{
-			String str=input.next().toLowerCase();
+			String str=input.next();
 			output.add(str);	
 		}
 		Collections.sort(output);
 		for(int i=0;i<output.size();i++)
 		{
-			System.out.println(output.get(i));
+			System.out.print(output.get(i));
+			if(i<output.size()-1)
+			{
+				System.out.print("\n");
+			}
 		}
 	}
 }
