@@ -1,5 +1,5 @@
 import java.util.*;
-class apartment
+public class Maxvel
 {
     public static void main(String[] args) {
       Scanner in=new Scanner(System.in);
