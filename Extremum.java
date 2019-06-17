@@ -4,7 +4,8 @@ public class Extremum {
 	
 	static int extrema(int a[], int n) 
 	{ 
-		int count = 0; 
+		int count;
+		count=0;
 		if(n==1)
 		{
 		count=1;
