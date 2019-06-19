@@ -1,5 +1,5 @@
 import java.util.*;
-public class R-char
+public class Rep
 {
 	static int Count(String str)
 	{
