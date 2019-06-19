@@ -1,5 +1,5 @@
 import  java.util.*;
-class Pair
+public class Pair
 {
 	public static void main(String arg[])
 	{
