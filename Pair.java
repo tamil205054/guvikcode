@@ -23,8 +23,8 @@ public class Pair
 					 sum=arrNum[i]+arrNum[j];
 						if(sum==arrNum[k])
 						{
-							//System.out.println(arrNum[i]+"+"+arrNum[i+1]+"="+sum);
-							count++;
+							System.out.println(arrNum[i]+"+"+arrNum[i+1]+"="+sum);
+							//count++;
 						}
 					}	 
 				}
@@ -32,6 +32,6 @@ public class Pair
 	
 			
 		}
-		System.out.print(count);
+		//System.out.print(count);
 	}
 }
