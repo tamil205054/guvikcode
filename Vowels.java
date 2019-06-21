@@ -3,8 +3,8 @@ import java.util.*;
 public class Vowels {
   
   public static void main(String[] args) {
-    Scanner in=new Scanner(System.in);
-    String s=in.next();
+    Scanner input=new Scanner(System.in);
+    String s=input.next();
     s=s.toLowerCase();
     int c=0;
     int t=0;
