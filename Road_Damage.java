@@ -4,8 +4,9 @@ public class Road_Damage
 	public static void main(String[] args) 
 	{
 		Scanner input=new Scanner(System.in);
-		 int n=input.nextInt();
-		int k=input.nextInt();
+		 int k,n;
+		n=input.nextInt(); 
+		k=input.nextInt();
 		String str=input.next();
 		str=str.substring(0,n);
 	  	int count=0;
