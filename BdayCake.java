@@ -1,7 +1,7 @@
 import java.util.*;
 public class BdayCake
 {
-// tamil
+// tamilarasan
 	public static void main(String[] args) 
 	{
 		Scanner input=new Scanner(System.in);
